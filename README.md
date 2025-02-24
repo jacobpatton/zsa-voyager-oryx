@@ -15,7 +15,7 @@ This repository allows combining the convenience of [Oryx’s](https://www.zsa.i
 1. Fork this repository (be sure to **uncheck the "Copy the main branch only" option**).
 2. To initialize the repository with your layout:
    - clone the repository to your local machine
-   - Update the config.json file with your layout ID and keyboard type
+   - Update the config.json file with your layout ID and keyboard type (in the main branch). You should probably go ahead and commit the change and push.
    - run .bin/download_and_commit_oryx.sh from a shell prompt.
 3. A folder containing your layout will be generated in the userspace directory in a folder named according to your keyboard type and Oryx layout id. For example, if you have Oryx layout "xxxxxx" and a voyager keyboard, your layout's files will be in userspace/keyboards/zsa/voyager/keymaps/oryx.xxxxxx
 4. You can now add your custom QMK features to this folder:

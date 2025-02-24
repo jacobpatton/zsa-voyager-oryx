@@ -10,7 +10,7 @@ cd $SCRIPT_DIR/..
 
 # Download latest Oryx keymap and commit to oryx branch
 
-git checkout -b oryx
+git checkout -B oryx origin/oryx
 
 hashId=$(jq -r .'layout' $SCRIPT_DIR/../config.json)
 
