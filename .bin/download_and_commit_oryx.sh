@@ -59,7 +59,7 @@ cd $SCRIPT_DIR/..
 git fetch origin main
 
 git checkout -B main origin/main
-git merge -Xignore-all-space oryx
+git merge -Xignore-all-space oryx -m "Merging ✨(oryx): ${change_description}" 
 git push
 
 # Compile the firmware
